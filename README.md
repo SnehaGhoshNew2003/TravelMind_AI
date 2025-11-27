@@ -139,6 +139,26 @@ streamlit run frontend/app.py
 ```
 
 ---
+## 🐳 Docker Image
+
+If you want to run this project instantly without setting up anything,
+you can pull my Docker image:
+
+```
+docker pull snehaghoshnew2003/travelmind-ai-project:latest
+```
+
+Then run it:
+
+```
+docker run -p 8000:8000 -p 8501:8501 snehaghoshnew2003/travelmind-ai-project:latest
+```
+
+This will automatically start:
+
+- FastAPI backend on **http://localhost:8000**
+- Streamlit frontend on **http://localhost:8501**
+---
 
 ##  Example User Queries
 
