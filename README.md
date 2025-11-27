@@ -1,4 +1,4 @@
-# 🌍 TravelMind AI  
+# TravelMind AI  
 ### **AI-Powered Tour Guide & Intelligent Route Planner**  
 *(Built with LangChain, FastAPI, Streamlit, RAG, Overpass API & OpenTripMap API)*
 
@@ -13,9 +13,9 @@ This project integrates:
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🗺️ **Real-Time Place Discovery**
+###  **Real-Time Place Discovery**
 - Fetches *real* and *verified* places from OpenTripMap.
 - Supports categories like museums, parks, malls, attractions, landmarks, etc.
 - Returns:
@@ -27,7 +27,7 @@ This project integrates:
 
 ---
 
-### 🧠 **AI Agent With Multiple Tools**
+###  **AI Agent With Multiple Tools**
 TravelMind AI uses a LangChain agent equipped with custom tools:
 
 - `get_real_places()` → Fetch popular places in a city  
@@ -39,14 +39,14 @@ The agent decides which tool to run based on the user query.
 
 ---
 
-### 🛣️ **Smart Route Planner**
+###  **Smart Route Planner**
 - Calculates the best route using GPS coordinates.
 - Minimizes travel time.
 - Works for any city worldwide.
 
 ---
 
-### 💬 **Interactive Streamlit UI**
+###  **Interactive Streamlit UI**
 Users can:
 - Search for popular places  
 - Filter by categories  
@@ -56,7 +56,7 @@ Users can:
 
 ---
 
-### ⚙️ **FastAPI Backend**
+###  **FastAPI Backend**
 Handles:
 - Agent execution  
 - Tool routing  
@@ -68,7 +68,7 @@ Streamlit interacts with FastAPI to fetch all data.
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 User  
@@ -88,10 +88,10 @@ Response to User
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-📦 TOUR
+ TOUR
 ├── Dockerfile
 ├── frontend.py          # Streamlit UI
 ├── main.py              # FastAPI backend
@@ -104,7 +104,7 @@ Response to User
 
 ---
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### **1. Clone the repository**
 ```bash
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚦 Running the Project
+##  Running the Project
 
 ### **Start Backend (FastAPI)**
 ```bash
@@ -140,7 +140,7 @@ streamlit run frontend/app.py
 
 ---
 
-## 🧪 Example User Queries
+##  Example User Queries
 
 - “Show me the best route for Bangalore with malls, parks, and historical places.”  
 - “List the top 10 attractions in Delhi.”  
@@ -149,7 +149,7 @@ streamlit run frontend/app.py
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### **AI & Backend**
 - Python  
@@ -167,7 +167,7 @@ streamlit run frontend/app.py
 
 ---
 
-## ⭐ Highlights
+##  Highlights
 
 - Uses **real API data only** — *zero hallucination*  
 - Clean & verified category mapping  
@@ -177,7 +177,7 @@ streamlit run frontend/app.py
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Multi-day itinerary planner  
 - Map rendering with Leaflet/Folium  
@@ -187,6 +187,6 @@ streamlit run frontend/app.py
 
 ---
 
-## 📬 Contact  
+##  Contact  
 
 Feel free to reach out for deployment help, UI improvements, or documentation updates.
